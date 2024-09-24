@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Básico</title>
+    <title>Seleção Brasileira</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link para o arquivo de CSS personalizado -->
+    <!-- Link para o CSS personalizado -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Meu Site</a>
+            <a class="navbar-brand" href="#">Seleção Brasileira</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,47 +23,53 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#historia">História</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#titulos">Títulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Conteúdo Principal -->
+    <!-- Header -->
     <header class="bg-primary text-white text-center py-5">
-        <h1>Bem-vindo ao Meu Site Básico</h1>
-        <p class="lead">Este é um exemplo de site utilizando HTML, CSS e Bootstrap.</p>
+        <h1>Bem-vindo à Seleção Brasileira</h1>
+        <p class="lead">Conheça mais sobre a equipe que é sinônimo de futebol mundial!</p>
     </header>
 
-    <section class="container py-5">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Seção 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis purus sit amet nulla hendrerit feugiat.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Seção 2</h2>
-                <p>Vivamus sollicitudin felis ut ligula vehicula, non pulvinar nisi volutpat. Integer lacinia ligula in pharetra suscipit.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Seção 3</h2>
-                <p>Donec eget arcu orci. Cras vestibulum arcu non tellus cursus, in rutrum ligula vehicula.</p>
-            </div>
+    <!-- Seção História -->
+    <section id="historia" class="container py-5">
+        <h2 class="text-center">História</h2>
+        <p class="text-center">A Seleção Brasileira de Futebol é uma das equipes mais prestigiadas do mundo, conhecida por seu estilo de jogo envolvente e por conquistar cinco títulos da Copa do Mundo. Fundada em 1914, ela se tornou um ícone do futebol mundial, revelando grandes craques como Pelé, Zico, Romário, Ronaldo e Neymar.</p>
+    </section>
+
+    <!-- Seção Títulos -->
+    <section id="titulos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Principais Títulos</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">5 Copas do Mundo (1958, 1962, 1970, 1994, 2002)</li>
+                <li class="list-group-item">9 Copas América</li>
+                <li class="list-group-item">4 Copas das Confederações</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container py-5">
+        <h2 class="text-center">Contato</h2>
+        <p class="text-center">Para mais informações, entre em contato com a CBF pelo site oficial.</p>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.cbf.com.br/" class="btn btn-success" target="_blank">Visitar CBF</a>
         </div>
     </section>
 
     <!-- Rodapé -->
-    <footer class="bg-light text-center py-4">
-        <p>&copy; 2024 Meu Site Básico. Todos os direitos reservados.</p>
-    </footer>
-
-    <!-- Bootstrap JS e dependências -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Link para o arquivo de JS personalizado -->
-    <script src="js/script.js"></script>
-</body>
-</html>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Seleção Brasileira. Todos os direitos reservados.</p>
+   

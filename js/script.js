@@ -1,2 +1,2 @@
-
-console.log("Bem-vindo ao Meu Site Básico!");
+// JavaScript personalizado (opcional)
+console.log("Seleção Brasileira - Site Básico");
